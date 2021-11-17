@@ -7872,75 +7872,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"call-meta@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "call-meta@workspace:."
-  dependencies:
-    "@babel/core": 7.15.0
-    "@babel/plugin-transform-runtime": ^7.15.8
-    "@babel/preset-env": 7.15.0
-    "@babel/preset-react": 7.14.5
-    "@babel/runtime": ^7.15.4
-    "@babel/runtime-corejs3": ^7.15.4
-    "@ceramicnetwork/cli": ^1.5.0
-    "@ceramicnetwork/http-client": ^1.4.0
-    "@ceramicnetwork/stream-tile": ^1.3.1
-    "@chakra-ui/react": ^1.6.9
-    "@emotion/react": ^11
-    "@emotion/styled": ^11
-    "@glazed/cli": ^0.1.1
-    "@glazed/datamodel": ^0.1.2
-    "@glazed/devtools": ^0.1.3
-    "@glazed/did-datastore": ^0.1.4
-    "@nomiclabs/hardhat-ethers": ^2.0.0
-    "@nomiclabs/hardhat-etherscan": ^2.1.7
-    "@nomiclabs/hardhat-waffle": ^2.0.1
-    "@openzeppelin/contracts": ^4.3.2
-    "@types/node": ^16.10.3
-    "@types/react": ^17.0.27
-    assert: ^2.0.0
-    babel-loader: 8.2.2
-    babel-plugin-transform-runtime: ^6.23.0
-    buffer: ^6.0.3
-    copy-webpack-plugin: ^9.0.1
-    core-js: 2
-    dids: ^2.4.0
-    dotenv: ^10.0.0
-    ethereum-waffle: ^3.2.0
-    ethers: ^5.4.7
-    framer-motion: ^4
-    gh-pages: ^3.2.3
-    hardhat: ^2.6.6
-    hardhat-abi-exporter: ^2.3.0
-    html-webpack-plugin: ^5.3.2
-    https-browserify: ^1.0.0
-    ipfs-http-client: ^53.0.1
-    json5: ^2.2.0
-    key-did-provider-ed25519: ^1.1.0
-    key-did-resolver: ^1.4.0
-    nft-did-resolver: ^1.0.0
-    os-browserify: ^0.3.0
-    path-browserify: ^1.0.1
-    process: ^0.11.10
-    react: 17.0.2
-    react-dom: 17.0.2
-    react-icons: ^4.3.1
-    react-markdown: ^7.0.1
-    react-router-dom: ^5.3.0
-    react-router-hash-link: ^2.4.3
-    remove-markdown: ^0.3.0
-    stream-browserify: ^3.0.0
-    stream-http: ^3.2.0
-    uint8arrays: ^3.0.0
-    use-ceramic: ^1.0.0
-    use-downshift: "https://github.com/dysbulic/use-downshift.git"
-    web3: ^1.6.0
-    webpack: 5.51.1
-    webpack-cli: 4.8.0
-    webpack-dev-server: 4.0.0
-  languageName: unknown
-  linkType: soft
-
 "callback-stream@npm:^1.1.0":
   version: 1.1.0
   resolution: "callback-stream@npm:1.1.0"
@@ -16644,6 +16575,75 @@ fsevents@~2.3.2:
   checksum: c27045a5021c344fc19b9132eb30313e441863b2951029f8f8b66f79d3d8c1e7e5091578075a996f74e417479506fe9ede28c44ca7bc351a61c9d8073daec36a
   languageName: node
   linkType: hard
+
+"market@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "market@workspace:."
+  dependencies:
+    "@babel/core": 7.15.0
+    "@babel/plugin-transform-runtime": ^7.15.8
+    "@babel/preset-env": 7.15.0
+    "@babel/preset-react": 7.14.5
+    "@babel/runtime": ^7.15.4
+    "@babel/runtime-corejs3": ^7.15.4
+    "@ceramicnetwork/cli": ^1.5.0
+    "@ceramicnetwork/http-client": ^1.4.0
+    "@ceramicnetwork/stream-tile": ^1.3.1
+    "@chakra-ui/react": ^1.6.9
+    "@emotion/react": ^11
+    "@emotion/styled": ^11
+    "@glazed/cli": ^0.1.1
+    "@glazed/datamodel": ^0.1.2
+    "@glazed/devtools": ^0.1.3
+    "@glazed/did-datastore": ^0.1.4
+    "@nomiclabs/hardhat-ethers": ^2.0.0
+    "@nomiclabs/hardhat-etherscan": ^2.1.7
+    "@nomiclabs/hardhat-waffle": ^2.0.1
+    "@openzeppelin/contracts": ^4.3.2
+    "@types/node": ^16.10.3
+    "@types/react": ^17.0.27
+    assert: ^2.0.0
+    babel-loader: 8.2.2
+    babel-plugin-transform-runtime: ^6.23.0
+    buffer: ^6.0.3
+    copy-webpack-plugin: ^9.0.1
+    core-js: 2
+    dids: ^2.4.0
+    dotenv: ^10.0.0
+    ethereum-waffle: ^3.2.0
+    ethers: ^5.4.7
+    framer-motion: ^4
+    gh-pages: ^3.2.3
+    hardhat: ^2.6.6
+    hardhat-abi-exporter: ^2.3.0
+    html-webpack-plugin: ^5.3.2
+    https-browserify: ^1.0.0
+    ipfs-http-client: ^53.0.1
+    json5: ^2.2.0
+    key-did-provider-ed25519: ^1.1.0
+    key-did-resolver: ^1.4.0
+    nft-did-resolver: ^1.0.0
+    os-browserify: ^0.3.0
+    path-browserify: ^1.0.1
+    process: ^0.11.10
+    react: 17.0.2
+    react-dom: 17.0.2
+    react-icons: ^4.3.1
+    react-markdown: ^7.0.1
+    react-router-dom: ^5.3.0
+    react-router-hash-link: ^2.4.3
+    remove-markdown: ^0.3.0
+    stream-browserify: ^3.0.0
+    stream-http: ^3.2.0
+    uint8arrays: ^3.0.0
+    use-ceramic: ^1.0.0
+    use-downshift: "https://github.com/dysbulic/use-downshift.git"
+    web3: ^1.6.0
+    webpack: 5.51.1
+    webpack-cli: 4.8.0
+    webpack-dev-server: 4.0.0
+  languageName: unknown
+  linkType: soft
 
 "mcl-wasm@npm:^0.7.1":
   version: 0.7.9

@@ -1,11 +1,11 @@
 {
-  "name": "call-meta",
-  "repository": "https://github.com/dhappy/consult",
-  "homepage": "https://dhappy.github.io/consult/",
+  "name": "market",
+  "repository": "https://github.com/dysbulic/market",
+  "homepage": "https://dysbulic.github.io/market/",
   "author": "W.J. “δυς” H. <dys@dhappy.org>",
   "license": "CC0",
-  "version": "0.4.0",
-  "description": "A system for encoding time-correlated metainformation regarding recordings of distributed work calls.",
+  "version": "0.1.0",
+  "description": "A description and test interfaces for an alternative to the current black market for substance distribution.",
   "main": "index.jsx",
   "module": "src/index.jsx",
   "scripts": {

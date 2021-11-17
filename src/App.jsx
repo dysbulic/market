@@ -14,7 +14,7 @@ import { createNftDidUrl } from 'nft-did-resolver'
 import { create as createIPFS } from 'ipfs-http-client'
 import Publish from './Publish'
 import New from './New'
-import View from './View'
+import Landing from './Landing'
 import addresses from './contract/addresses.json'
 import ABI from './contract/abi/VideosERC1155.json'
 import { ifSet } from './utils'
@@ -424,10 +424,7 @@ export default () => {
           }}/>
         </Route>
         <Route path="/">
-          <View {...{
-            nftDID, IPFSButton, ipfs, ConnectButton,
-            desiredChain,
-          }}/>
+          <Landing/>
         </Route>
       </Switch>
     </Router>
