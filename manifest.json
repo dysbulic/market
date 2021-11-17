@@ -1,9 +1,9 @@
 {
-  "short_name": "call-meta",
-  "name": "Call metadata visualizer",
+  "short_name": "market",
+  "name": "A New (Black) Market",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "logo.64⨯64.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     },
